@@ -290,3 +290,6 @@ dist
 .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/java,maven,node,angular,intellij+all
+
+#Misc ingnores
+src/main/static/*
