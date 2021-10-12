@@ -29,7 +29,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
     public CorsConfigurationSource corsConfigurationSource(){
         CorsConfiguration config = new CorsConfiguration();
 
-        config.setAllowedOrigins(Arrays.asList("http://localhost:8080"));
+        config.setAllowedOrigins(Arrays.asList("http://localhost:8080","https://basefullstack.herokuapp.com"));
         config.setAllowedMethods(Arrays.asList("GET","POST","PUT","DELETE","OPTIONS"));
         config.setAllowCredentials(Boolean.TRUE);
         config.setAllowedHeaders(Arrays.asList("Content-Type","Authorization"));
