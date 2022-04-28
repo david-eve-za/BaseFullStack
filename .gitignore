@@ -9,6 +9,7 @@ dist/
 tmp/
 app/**/*.js
 app/**/*.js.map
+.angular
 
 # dependencies
 node_modules/
@@ -25,6 +26,7 @@ libpeerconnection.log/
 npm-debug.log
 testem.log
 typings/
+*.db
 
 # e2e
 e2e/*.js
